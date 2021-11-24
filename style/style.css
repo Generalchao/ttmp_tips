@@ -1,5 +1,7 @@
-body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Helvetica Neue,Helvetica,Arial,sans-serif,"Segoe UI Emoji","Noto Emoji";}
+body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Helvetica Neue,Helvetica,Arial,sans-serif,"Segoe UI Emoji","Noto Emoji";margin: 0;padding:0;}
 
+
+/* 引入Proximanova 字体 */
     @font-face {
         font-family: "proxima-regular";
         font-weight: 400;
@@ -7,7 +9,6 @@ body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple
         src: local("Proxima:Nova"), local("ProximaNova-Regular"), url("https://lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Regular.woff2") format("woff2"), url("https://lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Regular.woff") format("woff"), url("https://lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Regular.otf");
         font-display: swap;
     }
-
     @font-face {
         font-family: "proxima-semibold";
         font-weight: 600;
@@ -15,7 +16,6 @@ body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple
         src: local("Proxima:Nova"), local("ProximaNova-Semibold"), url("https://lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Semibold.woff2") format("woff2"), url("https://lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Semibold.woff") format("woff"), url("https://lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Semibold.otf");
         font-display: swap;
     }
-
     @font-face {
         font-family: "proxima-bold";
         font-weight: 700;
@@ -23,7 +23,6 @@ body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple
         src: local("Proxima:Nova"), local("ProximaNova-Bold"), url("https://lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Bold.woff2") format("woff2"), url("https://lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Bold.woff") format("woff"), url("https://lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Bold.otf");
         font-display: swap;
     }
-
     @font-face {
         font-family: ProximaNova;
         src: url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Regular.woff2) format("woff2"), url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Regular.woff) format("woff"), url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Regular.otf) format("opentype");
@@ -31,7 +30,6 @@ body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple
         font-style: normal;
         font-display: swap;
     }
-
     @font-face {
         font-family: ProximaNova;
         src: url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Semibold.woff2) format("woff2"), url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Semibold.woff) format("woff"), url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Semibold.otf) format("opentype");
@@ -39,7 +37,6 @@ body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple
         font-style: normal;
         font-display: swap;
     }
-
     @font-face {
         font-family: ProximaNova;
         src: url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Bold.woff) format("woff"), url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Bold.otf);
@@ -47,7 +44,6 @@ body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple
         font-style: normal;
         font-display: swap;
     }
-
     @font-face {
         font-family: ProximaNova;
         src: url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Regular.woff2) format("woff2"), url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Regular.woff) format("woff"), url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Regular.otf) format("opentype");
@@ -55,7 +51,6 @@ body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple
         font-style: normal;
         font-display: swap;
     }
-
     @font-face {
         font-family: ProximaNova;
         src: url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Semibold.woff2) format("woff2"), url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Semibold.woff) format("woff"), url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Semibold.otf) format("opentype");
@@ -63,7 +58,6 @@ body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple
         font-style: normal;
         font-display: swap;
     }
-
     @font-face {
         font-family: ProximaNova;
         src: url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Bold.woff) format("woff"), url(//lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/falcon/tiktok_fonts/Proxima-Nova-Bold.otf);
@@ -71,5 +65,43 @@ body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple
         font-style: normal;
         font-display: swap;
     }
+/* 引入Proximanova 字体 */
 
 
+    /* tiktok loading style */
+    .tiktok-ui-loading{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;width: 200px;height: 200px;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-align-items: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-webkit-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;}
+    .tiktok-ui-loading-black-circle{fill: #0f0f0f;stroke-width: 0;stroke: #fff;r: 36px;cx: 40px;cy: 44px;-webkit-animation: tiktok-green 1s cubic-bezier(0.05,0,1,1) infinite;animation: tiktok-green 1s cubic-bezier(0.05,0,1,1) infinite;}
+    .tiktok-ui-loading-green{fill: #3af2ff;stroke-width: 0;r: 36px;cx: 40px;cy: 44px;-webkit-animation: tiktok-green 1s cubic-bezier(0.05,0,1,1) infinite;animation: tiktok-green 1s cubic-bezier(0.05,0,1,1) infinite;}
+    .tiktok-ui-loading-red{fill: #fe2c55;stroke-width: 0;r: 36px;cx: 120px;cy: 44px;-webkit-animation: tiktok-red 1s cubic-bezier(0.05,0,1,1) infinite;animation: tiktok-red 1s cubic-bezier(0.05,0,1,1) infinite;}
+    .tiktok-ui-loading-black{fill:#000;}
+    @-webkit-keyframes tiktok-green {
+        25% {cx: 80px;r: 43.2px;}
+        50% {cx: 120px;r: 36px;}
+        75% {cx: 80px;r: 21.6px;}
+        to {cx: 40px;r: 36px;}
+    }
+    @keyframes tiktok-green {
+        25% {cx: 80px;r: 43.2px;}
+        50% {cx: 120px;r: 36px;}
+        75% {cx: 80px;r: 21.6px;}
+        to {cx: 40px;r: 36px;}
+    }
+    @-webkit-keyframes tiktok-red {
+        25% {cx: 80px;r: 24px;}
+        50% {cx: 40px;r: 36px;}
+        75% {cx: 80px;r: 43.2px;}
+        to {cx: 120px;r: 36px;}
+    }
+    @keyframes tiktok-red {
+        25% {cx: 80px;r: 24px;}
+        50% {cx: 40px;r: 36px;}
+        75% {cx: 80px;r: 43.2px;}
+        to {cx: 120px;r: 36px;}
+    }
+    /* tiktok loading style */
+
+
+.gallery-one .row{display: grid;gap: 8px 8px;grid-template-columns: 40% 40%;padding:16px;}
+
+.filter-item{width: calc(50% - 24px);margin:0 8px 16px 0;}
+.filter-item:nth-of-type(2n){margin:0 0 16px 8px;}
