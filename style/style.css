@@ -128,7 +128,7 @@ body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple
     /* tiktok loading style */
 
 
-.gallery-one .row{display: grid;gap: 8px 8px;grid-template-columns: 40% 40%;padding:8px;}
+.gallery-one .row{display: grid;gap: 8px 8px;grid-template-columns: 40% 40%;padding:24px 8px;}
 
 .filter-item{width: calc(50% - 24px);padding: 0 8px 16px;}
 /*.filter-item:nth-of-type(2n){margin:0 0 16px 8px;}*/
@@ -166,3 +166,5 @@ body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple
   }*/
 
 ::-webkit-scrollbar { width: 0 !important }
+.tab-box{height: 42px;overflow: hidden;}
+.banner{border-radius: 8px;padding:16px;overflow: hidden;}

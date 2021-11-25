@@ -3312,7 +3312,7 @@ h6 {
 # gallery
 --------------------------------------------------------------*/
 .gallery-one {
-  padding-top: 24px;
+  padding-top: 8px;
   padding-bottom: 60px;
 }
 
@@ -3377,7 +3377,7 @@ h6 {
   font-size: 12px;line-height: 20px;height: 18px;
   font-weight: 700;
   color: var(--thm-black);
-  margin-right: 16px;
+  margin-right: 12px;
   background-color: var(--thm-white);
   text-align: center;
   display: flex;
