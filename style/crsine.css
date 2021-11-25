@@ -3361,10 +3361,6 @@ h6 {
   color: var(--thm-base);
 }
 
-.gallery-one__item:hover > img {
-  transform: scale(1.05);
-}
-
 .gallery-one__item:hover > a {
   visibility: visible;
   transform: translateY(0%);
