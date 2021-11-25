@@ -108,3 +108,10 @@ body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple
 
 .gallery-one__item > img {width: 100%;height: 160px;transform: scale(1);transition: transform 500ms ease;object-fit: cover;border-radius: 8px;}
 .filter-item .gallery-one__item .title {display: -webkit-box;overflow: hidden;white-space: normal!important;text-overflow: ellipsis;word-wrap: break-word;-webkit-line-clamp: 2;-webkit-box-orient: vertical;height: 44px;}
+
+
+/* 滚动条样式 */
+#Yscrollouter{width: 10px; height: 340px; background: #dedede; position: absolute;top:0; right: 0; display: none;}
+#Yscrollinner{width: 10px; height: 100px; background: #bbb; border-radius:10px; position: absolute; top: 0; left: 0; }
+/* 滚动条样式 */
+
