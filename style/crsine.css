@@ -336,8 +336,8 @@ h6 {
   height: 45px;
   background: var(--thm-base);
   position: fixed;
-  bottom: 40px;
-  right: 40px;
+  bottom: 24px;
+  right: 24px;
   z-index: 99;
   text-align: center;
   -webkit-transition: all 0.4s ease;
@@ -3313,7 +3313,7 @@ h6 {
 --------------------------------------------------------------*/
 .gallery-one {
   padding-top: 24px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 }
 
 @media (min-width: 992px) {
