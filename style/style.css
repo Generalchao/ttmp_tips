@@ -1,5 +1,32 @@
 body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Helvetica Neue,Helvetica,Arial,sans-serif,"Segoe UI Emoji","Noto Emoji";margin: 0;padding:0;}
 
+/*变量颜色*/
+:root {
+  --thm-font: "Lato", sans-serif;
+  --heading-font: "Lato", sans-serif;
+  --special-font: "Lato", sans-serif;
+  --thm-color: #727a84;
+  --thm-color-rgb: 114, 122, 132;
+  --thm-gray: #eef3f7;
+  --thm-gray-rgb: 238, 243, 247;
+  --thm-base: rgba(254, 44, 85, 1.0);
+  --thm-base-rgb: 239, 83, 15;
+  --thm-primary: #02489d;
+  --thm-primary-rgb: 2, 72, 157;
+  --thm-secondary: #3fbfef;
+  --thm-secondary-rgb: 63, 191, 239;
+  --thm-special: #5366c2;
+  --thm-special-rgb: 83, 102, 194;
+  --thm-black: #072040;
+  --thm-black-rgb: 7, 32, 64;
+  --thm-black2: #383a39;
+  --thm-black2-rgb: 56, 58, 57;
+  --thm-text-dark: #afc0d6;
+  --thm-text-dark-rgb: 175, 192, 214;
+  --thm-border: #e2e9f0;
+  --thm-border-rgb: 226, 233, 240;
+  --thm-white:#fff;
+}
 
 /* 引入Proximanova 字体 */
     @font-face {
@@ -107,8 +134,7 @@ body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple
 /*.filter-item:nth-of-type(2n){margin:0 0 16px 8px;}*/
 
 .gallery-one__item > img {width: 100%;height: 160px;transform: scale(1);transition: transform 500ms ease;object-fit: cover;border-radius: 8px;}
-.filter-item .gallery-one__item .title {display: -webkit-box;overflow: hidden;white-space: normal!important;text-overflow: ellipsis;word-wrap: break-word;-webkit-line-clamp: 2;-webkit-box-orient: vertical;height: 44px;}
-
+.filter-item .gallery-one__item .title {display: -webkit-box;overflow: hidden;white-space: normal!important;text-overflow: ellipsis;word-wrap: break-word;-webkit-line-clamp: 2;-webkit-box-orient: vertical;height: 44px;font-size: 12px;line-height: 20px;}
 
 /* 滚动条样式 */
 #Yscrollouter{width: 10px; height: 340px; background: #dedede; position: absolute;top:0; right: 0; display: none;}

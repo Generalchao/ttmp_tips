@@ -3371,14 +3371,14 @@ h6 {
   opacity: 1;
 }
 
-.post-filter {display: -webkit-box;padding: 0;overflow-x: auto;}
+.post-filter {display: -webkit-box;padding: 0;overflow-x: auto;margin:0;}
 
 .post-filter__item {
-  font-size: 14px;
+  font-size: 12px;line-height: 20px;height: 18px;
   font-weight: 700;
   color: var(--thm-black);
   margin-right: 16px;
-  background-color: var(--thm-gray);
+  background-color: var(--thm-white);
   text-align: center;
   display: flex;
   justify-content: center;
