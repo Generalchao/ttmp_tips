@@ -3334,38 +3334,9 @@ h6 {
 }
 
 .gallery-one__item > a {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 10px;
-  background-color: rgba(var(--thm-black-rgb), 0.9);
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 36px;
-  color: #fff;
-  transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease;
-  visibility: hidden;
-  opacity: 0;
-  transform: translateY(-30%);
+ display: block;overflow: hidden;
 }
 
-.gallery-one__item > a i {
-  color: inherit;
-  transition: all 500ms ease;
-}
-
-.gallery-one__item > a i:hover {
-  color: var(--thm-base);
-}
-
-.gallery-one__item:hover > a {
-  visibility: visible;
-  transform: translateY(0%);
-  opacity: 1;
-}
 
 .post-filter {display: -webkit-box;padding: 0;overflow-x: auto;margin:0;}
 
