@@ -2438,11 +2438,6 @@ h6 {
 /*--------------------------------------------------------------
 # Page Header
 --------------------------------------------------------------*/
-.page-header {
-  background-color: var(--thm-base);
-  position: relative;margin:0;height: 150px;background-size: cover;overflow: hidden;padding: 16px;
-}
-
 .page-header__bg {
   position: absolute;
   top: 0;
@@ -3316,12 +3311,6 @@ h6 {
   padding-bottom: 60px;
 }
 
-@media (min-width: 992px) {
-  .gallery-one {
-    padding-bottom: 100px;
-    padding-top: 100px;
-  }
-}
 .gallery-one__item {
   position: relative;
   overflow: hidden;
@@ -3339,27 +3328,6 @@ h6 {
 
 
 .post-filter {display: -webkit-box;padding: 0;overflow-x: auto;margin:0;}
-
-.post-filter__item {
-  font-size: 12px;line-height: 20px;height: 18px;
-  font-weight: 700;
-  color: var(--thm-black);
-  margin-right: 12px;
-  background-color: var(--thm-white);
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 16px;
-  transition: all 500ms ease;
-  cursor: pointer;border-radius: 8px;
-}
-.post-filter__item:nth-of-type(1){margin-left: 16px;}
-
-.post-filter__item:hover, .post-filter__item.active {
-  background-color: var(--thm-base);
-  color: #fff;
-}
 
 .gallery-two {
   padding-top: 80px;
