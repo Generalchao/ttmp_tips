@@ -171,7 +171,7 @@ body{background-color: #040D21;color: #fff;font-family: "proxima-regular",-apple
 ::-webkit-scrollbar { width: 0 !important }
 .tab-box{height: 42px;overflow: hidden;}
 .banner{border-radius: 8px;padding:16px;overflow: hidden;max-width: 1052px;margin: 0 auto;display: flex;gap: 16px;}
-.page-header {background: #0C162E url('../img/line_001@2x.png') repeat-x left bottom/22px; position: relative; margin: 0; height: 100px; overflow: hidden; border-radius: 8px;flex: 1;position: relative;}
+.page-header {background: #0C162E url('../img/line_001@2x.png') repeat-x left bottom/20px; position: relative; margin: 0; height: 120px; overflow: hidden; border-radius: 8px;flex: 1;position: relative;}
 .page-header h3{z-index: 2;position: absolute;width: 80%;left: 16px;line-height: 120%;top: -8px;}
 .page-header h3 .colour{background: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%);
 -webkit-background-clip: text;
@@ -179,6 +179,8 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 -webkit-box-decoration-break: clone;
 }
+.page-header .btn{position: absolute;left: 16px;bottom:16px;color: #fff;background-color: rgba(255,255,255,.1);padding: 4px 12px;border-radius: 4px;font-size: 12px;transition: .3s;}
+.page-header .btn:hover{background-color: var(--thm-base);}
 .page-header .banner-icon{position: absolute;right: 0px;z-index: 1;width: 90px;top:12px;}
 .post-filter__item {font-size: 12px;line-height: 20px;height: 18px; font-weight: 700; color: var(--thm-black); margin-right: 12px; background-color: var(--thm-white); text-align: center; display: flex; justify-content: center; align-items: center; padding: 12px 16px; transition: all 500ms ease; cursor: pointer;border-radius: 8px; } 
 .post-filter__item:nth-of-type(1){margin-left: 16px;}
@@ -190,8 +192,9 @@ background-clip: text;
     .post-filter__item:nth-of-type(1){margin-left: 24px;}
     .filter-item .gallery-one__item .title{font-size: 14px;}
     .page-header{height: 150px;}
-    .page-header h3{width: 50%;left: 24px;top: 0;}
+    .page-header h3{width: 60%;left: 24px;top: 0;font-size: 22px;}
     .page-header .banner-icon{right: 16px;top: 20px;width: 120px;}
+    .page-header .btn{left: 24px;}
 
 }
 @media (min-width: 992px) {
