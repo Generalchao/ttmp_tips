@@ -1,91 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TTMP UIkit Tips</title>
-    <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Tips and updates about ttmp uikit" />
+<meta charset="UTF-8">
+<title>Text Morph</title>
 
-    <!-- template styles -->
-    <link rel="stylesheet" href="style/crsine.css" />
-    
-    <link rel="stylesheet" type="text/css" href="style/style.css">
-
-<style type="text/css">
-    .preloader_01 {
-    position: fixed;
-    background-color: #040D21;
-    background-position: center center;
-    background-repeat: no-repeat;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 9991;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    text-align: center;flex-direction: column;
-}
-.preloader_01 span{font-size: 14px;}    
-
-</style>
+<link rel="stylesheet" href="style/404.css">
 
 </head>
-
 <body>
-    
-    <!-- Tiktok loading -->
-    <div class="preloader_01" >
-        <div class="tiktok-ui-loading-container video-card-loading" style="width: 48px; height: 48px;">
-            <div class="tiktok-ui-loading" style="transform: scale(0.24);">
-                <svg preserveAspectRatio="none" viewBox="0 0 160 90" width="160" height="90">
-                    <defs>
-                        <mask id="redhole">
-                            <rect width="100%" height="100%" fill="white"></rect>
-                            <circle fill="black" class="tiktok-ui-loading-red tiktok-ui-loading-black"></circle>
-                        </mask>
-                        <mask id="greenhole">
-                            <rect width="100%" height="100%" fill="white"></rect>
-                            <circle fill="black" class="tiktok-ui-loading-green tiktok-ui-loading-black"></circle>
-                        </mask>
-                    </defs>
-                    <circle stroke-width="2" stroke="#3AF2FF" class="tiktok-ui-loading-black-circle"></circle>
-                    <circle class="tiktok-ui-loading-green" mask="url(#redhole)"></circle>
-                    <circle class="tiktok-ui-loading-red" mask="url(#greenhole)"></circle>
-                </svg>
-            </div>
-        </div>
-        <span>维护中...</span>
-    </div>
-    <!-- Tiktok loading -->
 
+<!-- The two texts -->
+<div id="container">
+	<span id="text1"></span>
+	<span id="text2"></span>
+</div>
 
-        
+<!-- The SVG filter used to create the merging effect -->
+<svg id="filters">
+	<defs>
+		<filter id="threshold">
+			<!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+			<feColorMatrix in="SourceGraphic"
+					type="matrix"
+					values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140" />
+		</filter>
+	</defs>
+</svg>
 
+<script  src="js/script.js"></script>
 
-
-
-
-
-
-
-
-
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/isotope.js"></script>
-    <script src="js/crsine.js"></script>
-
-
- 
 </body>
-
 </html>
